@@ -1,0 +1,107 @@
+.transfer-card {
+  max-width: 550px;
+}
+
+.user-info {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.user-greeting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.btn-small {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.balance-label {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.balance-amount {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.available-users {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f0f0f0;
+}
+
+.available-users h3 {
+  color: #667eea;
+  margin: 0 0 15px 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.users-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.user-item:hover {
+  background: #efefef;
+  transform: translateX(-5px);
+}
+
+.user-item span:first-child {
+  font-weight: 600;
+  color: #333;
+}
+
+.user-email {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .transfer-card {
+    padding: 30px 20px;
+  }
+
+  .balance-amount {
+    font-size: 2rem;
+  }
+
+  .user-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}
+
+
