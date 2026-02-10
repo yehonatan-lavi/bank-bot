@@ -13,8 +13,8 @@
 
     getConfigurations: function (callback) {
       const configurations = {};
-      configurations[cdApi.configurationKeys.serverURL] ='https://wup-application.bc2.customers.biocatch.com';
-      configurations[cdApi.configurationKeys.customerID] = 'application';
+      configurations[cdApi.configurationKeys.serverURL] ='wup-4ff4f23f.eu.v2.we-stats.com';
+      configurations[cdApi.configurationKeys.customerID] = 'dummy';
       configurations[cdApi.configurationKeys.logServerURL] ='https://log-application.bc2.customers.biocatch.com/api/v1/sendLogs';
       configurations[cdApi.configurationKeys.enableCustomElementsProcessing] = true;
       configurations[cdApi.configurationKeys.collectionSettings] = {
